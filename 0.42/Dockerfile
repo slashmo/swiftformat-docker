@@ -2,7 +2,7 @@ FROM swift:5.1.2 as builder
 
 RUN apt-get update && apt-get install -y curl
 
-ARG SWIFTFORMAT_VERSION
+ENV SWIFTFORMAT_VERSION=0.42.0
 ENV SWIFTFORMAT_ARCHIVE="https://github.com/nicklockwood/SwiftFormat/archive/${SWIFTFORMAT_VERSION}.tar.gz"
 
 RUN mkdir -p /build/lib && cp -R /usr/lib/swift/linux/*.so* /build/lib
