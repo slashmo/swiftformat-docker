@@ -5,7 +5,7 @@ Docker images for recent [SwiftFormat](https://github.com/nicklockwood/SwiftForm
 ## Versions
 
 - Swift 5.1.2
-- SwiftFormat 0.42.0
+- Supported SwiftFormat versions can be found [here](https://github.com/slashmo/swiftformat-docker/releases)
 
 ## Usage
 
